@@ -2,6 +2,8 @@
 
 정적 사고 시나리오 feature와 시간 feature를 결합해 열수력(TH) trajectory를 예측하고, SHAP을 이용해 시간별·시나리오별 기여도를 해석하는 surrogate modeling 프로젝트
 
+프로젝트 배경, 문제 정의, 결과 해석 [Notion Link]((https://www.notion.so/Explainable-Surrogate-Modeling-for-Thermal-Hydraulic-Codes-in-Nuclear-Power-Plants-31ba673ff2f780239f21c58a310c1f8c))
+
 ![Time-resolved SHAP example](figures/time_resolved_shap/time_resolved_shap_sample0_PPS.png)
 
 > PPS 변수에 대한 trajectory prediction과 time-resolved SHAP attribution 예시
