@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Private data
+data/*
+!data/README.md
+
+# Generated outputs
+out/**
+
+# Generated figures
+figures/**
+
+# Keep global SHAP figures
+!figures/
+!figures/global_shap/
+!figures/global_shap/*.png
+
+# Keep selected true_vs_pred figures (samples 0, 1, 2)
+!figures/true_vs_pred/
+!figures/true_vs_pred/true_vs_pred_sample0_*.png
+!figures/true_vs_pred/true_vs_pred_sample1_*.png
+!figures/true_vs_pred/true_vs_pred_sample2_*.png
+
+# Keep selected time_resolved_shap figures (samples 0, 1, 2)
+!figures/time_resolved_shap/
+!figures/time_resolved_shap/shap_summary_sample0_*.png
+!figures/time_resolved_shap/shap_summary_sample1_*.png
+!figures/time_resolved_shap/shap_summary_sample2_*.png
+
+# Binary / serialized artifacts
+*.npy
+*.npz
+*.joblib
+*.pkl
+*.pickle
+
+# Logs
+*.log
