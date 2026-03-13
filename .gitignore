@@ -37,9 +37,9 @@ figures/**
 
 # Keep selected time_resolved_shap figures (samples 0, 1, 2)
 !figures/time_resolved_shap/
-!figures/time_resolved_shap/shap_summary_sample0_*.png
-!figures/time_resolved_shap/shap_summary_sample1_*.png
-!figures/time_resolved_shap/shap_summary_sample2_*.png
+!figures/time_resolved_shap/time_resolved_shap_sample0_*.png
+!figures/time_resolved_shap/time_resolved_shap_sample1_*.png
+!figures/time_resolved_shap/time_resolved_shap_sample2_*.png
 
 # Binary / serialized artifacts
 *.npy
